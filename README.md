@@ -19,8 +19,7 @@ The heroku toolbelt provides the necessary tools to run and test endpoints from
 your local machine. [More Info](https://devcenter.heroku.com/articles/heroku-local#run-your-app-locally-using-the-heroku-local-command-line-tool)<br>
 ```heroku local web -f Procfile_local -e .env```
 
-End the virtual environment:<br>
-```deactivate```
+End the virtual environment: `deactivate`
 
 ## Test Endpoints
 1. ```/hello``` -- this endpoint returns the string "hello world". the app, at its most basic
